@@ -32,4 +32,4 @@ Definição de um tema, de enfoque científico ou tecnológico, referente ao ant
 
 ## Fluxo básico
 
-Veja [aqui](./fluxo_tcc1.mmd) o fluxo para a construção do trabalho.
+Veja [aqui](./diagrama/fluxo_tcc1.mmd) o fluxo para a construção do trabalho.
