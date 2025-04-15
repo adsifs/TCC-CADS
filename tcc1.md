@@ -24,6 +24,6 @@ De maneira resumida, a avaliação levará em consideração os itens:
 
 Definição de um tema, de enfoque científico ou tecnológico, referente ao ante projeto para o trabalho de conclusão de curso. Revisão bibliográfica para a fundamentação teórica. Escolha da metodologia. Acompanhamento do desenvolvimento desse trabalho.
 
-## Como construir
+## Fluxo básico
 
-A seguir será apresentado um roteiro que facilitará a construção do trabalho.
+Veja [aqui](./fluxo_tcc1.mmd) o fluxo para a construção do trabalho.
