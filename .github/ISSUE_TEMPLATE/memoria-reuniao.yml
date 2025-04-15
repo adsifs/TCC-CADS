@@ -6,11 +6,11 @@ body:
     attributes:
       value: |
         Esta tarefa é para registrar os temas abordados e decisões tomadas na reunião de TCC.
-  - type: date
+  - type: input
     id: data_reuniao
     attributes:
       label: 🗓️ Data da Reunião
-      description: A data da reunião será preenchida automaticamente com a data do registro.
+      description: A data da reunião no formato yyyy-MM-dd.
     validations:
       required: true
 
@@ -35,7 +35,7 @@ body:
     validations:
       required: true
 
-  - type: text
+  - type: input
     id: outros_tema
     attributes:
       label: ✍️ Outros (se aplicável)
@@ -44,7 +44,7 @@ body:
     validations:
       required: false
 
-  - type: text
+  - type: textarea
     id: comentario
     attributes:
       label: 📝 Comentários Gerais
@@ -53,7 +53,7 @@ body:
     validations:
       required: false
 
-  - type: text
+  - type: textarea
     id: proxima_acao
     attributes:
       label: 🔜 Ação ou Próximo Passo
@@ -62,7 +62,7 @@ body:
     validations:
       required: true
 
-  - type: text
+  - type: input
     id: orientador
     attributes:
       label: 👨‍🏫 Orientador
