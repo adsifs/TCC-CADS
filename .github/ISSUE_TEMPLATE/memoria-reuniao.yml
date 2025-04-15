@@ -1,0 +1,78 @@
+name: Reunião de TCC
+
+description: |
+  Esta tarefa é para registrar os temas abordados e decisões tomadas na reunião de TCC.
+
+fields:
+  - type: date
+    id: data_reuniao
+    attributes:
+      label: 🗓️ Data da Reunião
+      description: A data da reunião será preenchida automaticamente com a data do registro.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: temas
+    attributes:
+      label: 📌 Temas Abordados
+      description: Marque os tópicos discutidos durante a reunião.
+      options:
+        - label: Escolha do tema
+        - label: Justificativa
+        - label: Objetivo geral
+        - label: Objetivos específicos
+        - label: Cronograma
+        - label: Metodologia
+        - label: Levantamento bibliográfico
+        - label: Referencial teórico
+        - label: Modelagem do sistema
+        - label: Correções na escrita
+        - label: Preparação para apresentação
+        - label: Outros
+    validations:
+      required: true
+
+  - type: text
+    id: outros_tema
+    attributes:
+      label: ✍️ Outros (se aplicável)
+      placeholder: Especifique qualquer outro tema discutido
+      description: Se você marcou a opção "Outros", por favor, descreva o tema aqui.
+    validations:
+      required: false
+
+  - type: text
+    id: comentario
+    attributes:
+      label: 📝 Comentários Gerais
+      placeholder: Adicione aqui quaisquer observações adicionais
+      description: Comentários ou pontos importantes discutidos durante a reunião.
+    validations:
+      required: false
+
+  - type: text
+    id: proxima_acao
+    attributes:
+      label: 🔜 Ação ou Próximo Passo
+      placeholder: Defina a próxima ação ou tarefa para o aluno
+      description: Quais são os próximos passos ou ações após a reunião.
+    validations:
+      required: true
+
+  - type: text
+    id: orientador
+    attributes:
+      label: 👨‍🏫 Orientador
+      value: "Francisco Rodrigues Santos"
+      description: Nome do orientador
+    validations:
+      required: true
+
+  - type: user
+    id: aluno
+    attributes:
+      label: 🧑‍🎓 Aluno
+      description: Usuário que está criando a issue (o aluno).
+    validations:
+      required: true
