@@ -1,0 +1,28 @@
+site_name: TCC CADS
+theme:
+  name: material
+  logo: assets/logo.svg
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+
+nav:
+  - Início: index.md
+  - TCC 1: tcc1.md
+  - TCC 2: tcc2.md
+  - Reunião: memoria-reuniao.md
+  - Introdução: introducao.md
+  - Objetivos: objetivos.md
+  - Metodologia: metodologia.md
+  - Fundamentação Teórica: fundamentacao-teorica.md
+  - Desenvolvimento: desenvolvimento.md
+  - Conclusão: conclusao.md
+  - Referências: referencias.md
