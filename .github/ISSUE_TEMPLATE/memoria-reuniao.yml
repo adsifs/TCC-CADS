@@ -1,9 +1,11 @@
 name: Reunião de TCC
-
 description: |
   Esta tarefa é para registrar os temas abordados e decisões tomadas na reunião de TCC.
-
-fields:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esta tarefa é para registrar os temas abordados e decisões tomadas na reunião de TCC.
   - type: date
     id: data_reuniao
     attributes:
@@ -64,7 +66,7 @@ fields:
     id: orientador
     attributes:
       label: 👨‍🏫 Orientador
-      value: "Francisco Rodrigues Santos"
+      value: "Francisco Rodrigues"
       description: Nome do orientador
     validations:
       required: true
