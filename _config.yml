@@ -1,41 +1,8 @@
-site_name: TCC Help
-site_url: https://adsifs.github.io/TCC-CADS
-
-theme:
-  name: material
-  language: pt-BR
-  icon:
-    repo: fontawesome/brands/github
-    logo: material/school
-  palette:
-    - scheme: default
-      primary: green
-      accent: light green
-    - scheme: slate
-      primary: green
-      accent: light green
-      toggle:
-        icon: material/weather-night
-        name: Mudar para modo escuro
-  logo: assets/logo.svg
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-
-repo_url: https://github.com/adsifs/TCC-CADS
-repo_name: adsifs/TCC-CADS
-
-nav:
-  - Início: index.md
-  - TCC 1: tcc1.md
-  - TCC 2: tcc2.md
-  - Introdução: introducao.md
-  - Objetivos: objetivos.md
-  - Metodologia: metodologia.md
-  - Fundamentação Teórica: fundamentacao-teorica.md
-  - Desenvolvimento: desenvolvimento.md
-  - Conclusão: conclusao.md
-  - Referências: referencias.md
+title: TCC Help
+description: "Documentação para acompanhamento de TCCs do curso de Análise e Desenvolvimento de Sistemas"
+baseurl: "/TCC-CADS" # altere isso para o nome do seu repositório no GitHub
+url: "https://adsifs.github.io"
+theme: jekyll-theme-cayman
+theme_config:
+  logo: "/assets/logo.svg"
+  favicon: "/assets/favicon.ico"
