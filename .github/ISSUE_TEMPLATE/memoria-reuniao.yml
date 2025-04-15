@@ -70,11 +70,3 @@ body:
       description: Nome do orientador
     validations:
       required: true
-
-  - type: user
-    id: aluno
-    attributes:
-      label: 🧑‍🎓 Aluno
-      description: Usuário que está criando a issue (o aluno).
-    validations:
-      required: true
