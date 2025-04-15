@@ -1,8 +1,12 @@
-site_name: TCC CADS
+site_name: TCC Help
+site_url: https://adsifs.github.io/TCC-CADS
+
 theme:
   name: material
-  logo: assets/logo.svg
   language: pt-BR
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/school
   palette:
     - scheme: default
       primary: green
@@ -13,12 +17,21 @@ theme:
       toggle:
         icon: material/weather-night
         name: Mudar para modo escuro
+  logo: assets/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+repo_url: https://github.com/adsifs/TCC-CADS
+repo_name: adsifs/TCC-CADS
 
 nav:
   - Início: index.md
   - TCC 1: tcc1.md
   - TCC 2: tcc2.md
-  - Reunião: memoria-reuniao.md
   - Introdução: introducao.md
   - Objetivos: objetivos.md
   - Metodologia: metodologia.md
