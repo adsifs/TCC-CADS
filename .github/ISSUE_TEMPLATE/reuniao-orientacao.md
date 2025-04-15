@@ -1,5 +1,5 @@
 ---
-name: "📘 Memória de Reunião de Orientação"
+name: "[Antigo]📘 Memória de Reunião de Orientação"
 about: "Registrar os principais pontos discutidos e tarefas atribuídas em reunião de orientação de TCC."
 title: "[Reunião] - Nome do Aluno - AAAA-MM-DD"
 labels: ["reunião", "tcc", "orientação"]
