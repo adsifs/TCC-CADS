@@ -1,3 +1,9 @@
+---
+layout: default
+title: TCC 1
+permalink: /tcc1/
+---
+
 # TCC I
 
 ## Introdução

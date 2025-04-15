@@ -6,3 +6,13 @@ theme: jekyll-theme-cayman
 theme_config:
   logo: "/assets/logo.svg"
   favicon: "/assets/favicon.ico"
+# Navegação personalizada
+nav:
+  - title: "Início"
+    url: "/"
+  - title: "TCC 1"
+    url: "/tcc1/"
+  - title: "TCC 2"
+    url: "/tcc2/"
+  - title: "Reuniões"
+    url: "/memoria-reuniao/"
