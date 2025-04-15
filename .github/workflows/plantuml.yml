@@ -1,0 +1,39 @@
+name: Gerar Diagramas PlantUML
+
+on:
+  push:
+    paths:
+      - "**.puml" # Detecta mudanças em arquivos .puml
+  pull_request:
+    paths:
+      - "**.puml" # Detecta mudanças em arquivos .puml em pull requests
+
+jobs:
+  generate_diagram:
+    runs-on: ubuntu-latest # Executa no Ubuntu
+    steps:
+      - name: Checar o repositório
+        uses: actions/checkout@v2 # Faz o checkout do código do repositório
+
+      - name: Instalar o PlantUML
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y plantuml
+
+      - name: Criar diretório para os diagramas
+        run: |
+          mkdir -p diagrams/exemplo  # Cria subdiretórios conforme necessário
+          mkdir -p diagrams/outro
+
+      - name: Gerar Diagramas para cada arquivo .puml
+        run: |
+          # Gerar a imagem para o arquivo exemplo/a.puml
+          plantuml -tpng "exemplo/a.puml" -o diagrams/exemplo/
+          # Gerar a imagem para o arquivo outro/a.puml
+          plantuml -tpng "outro/a.puml" -o diagrams/outro/
+
+      - name: Subir as imagens geradas para o repositório
+        uses: actions/upload-artifact@v2
+        with:
+          name: diagramas
+          path: diagrams/*/*.png # Faz o upload das imagens geradas
