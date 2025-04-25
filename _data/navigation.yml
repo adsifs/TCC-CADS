@@ -28,11 +28,12 @@ TCC:
   - title: "Reuniões"
     children:
       - title: "Como registrar"
-        url: "/TCC/memoria-reuniao/"
-      - title: "Exemplos"
-        children:
-          - title: "Exemplo 01"
-            url: "/TCC/memoria-reuniao/"
+        url: "/TCC/memoria_reuniao/"
+      - title: "Exemplo 01"
+        url: "/TCC/memoria_reuniao_ex01/"
+      - title: "Exemplo 02"
+        url: "https://docs.google.com/document/d/1_qm3MK52A2VdKKQGb1DWSb2f8p2oloODNkfujA0zT18/edit?usp=drivesdk"
+        target: _blank
   - title: "TCC 1"
     children:
       - title: "O que é"

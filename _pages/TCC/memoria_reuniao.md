@@ -23,7 +23,7 @@ Outro exemplo, utilizado pela profa. Clênia, pode ser visto [aqui](https://docs
 ![Diagrama de Atividade](https://uml.planttext.com/plantuml/svg/ZP5DIWD148NtVOf7Lb68PEbA8WD2Dc50bsuwCnLJCDqLgdfGl8suy0314_J5xB4NuX-wVVLzhulgbIMlQGo36sYNa0JAT_k4dfMwn1ATTNuWBC_EtVpq18l51MPhnS6hnss4qa6CKpug2th1JTFCt5z0RMa6xho20jPc8rdnlaLVoGtTrz4d-2EjVAj4iTkJJWjmt8a6dr_oAncs-ScADZts7whsNPRuMI0ZMit71mw2rfj9AVbrLCqhZdxWnsbDN8_RG8cqM3_6xqQviLjHxCkFl040)
 
 <!---
- ![Diagrama resumo](../diagrams/memoria-reuniao.png)
+ ![Diagrama resumo](../diagrams/memoria_reuniao.png)
 -->
 
 ### 1. Criação de uma Nova Issue
