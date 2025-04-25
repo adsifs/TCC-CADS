@@ -1,0 +1,98 @@
+flowchart TD
+
+%% Fases (definição de estilos)
+    classDef fase1 fill:#E0F7FA,stroke:#00ACC1,color:#004D40,font-size:10px
+    classDef fase2 fill:#F1F8E9,stroke:#7CB342,color:#33691E,font-size:10px
+    classDef fase3 fill:#FFF3E0,stroke:#FB8C00,color:#E65100,font-size:10px
+    classDef legenda fill:#f0f0f0,stroke:#cccccc,color:#333,font-size:12px
+	classDef fluxo font-size:10px
+
+%% Grupos
+ 	
+    subgraph Professor
+        P1[Listar temas por <br>prioridade ou afinidade]
+        P2{Aprovar <br>objetivo geral}
+        P3{Aprovar <br> objetivos específicos}
+        PValidaCrono[Validar cronograma]
+        P4[Validar metodologia]
+        P5[Apresentar considerações <br>finais antes da apresentação]
+		P6{Pode ser apresentado?}
+        PAvaliarEscrita[[Avaliar escrita]]
+		PAvaliarPosBanca[Avaliar correções após <br> a apresentação da banca]
+    end
+
+    subgraph Aluno
+        A1[Solicitar apoio ao professor<br> com sugestão de temas]
+        A2[Definir tema com <br>apoio do orientador]
+        A3[Definir objetivo geral]
+        A4[Elaborar objetivos específicos <br> pelo menos 5]
+        A5[Elaborar cronograma <br>de entrega]
+        A6[Elaborar metodologia<br> de trabalho]
+        A7[Elaborar justificativa]
+        A8[Realizar levantamento<br> bibliográfico]
+        A9[Identificar trabalhos<br> semelhantes]
+        A10[Referencial teórico]
+        A11[Modelar e documentar <br>o sistema/Trabalho]
+		A12[Fechar versão<br> para apresentação]
+        ApresentarTCC[Apresentar <br> TCC]
+		CorrigirTCCPosApresentacao[Corrigir TCC conforme orientação da banca]
+		EntregaTCCIFS[[Realizar processo <br>de entrega de <br>TCC para o IFS]]
+
+    end
+	FIM(((FIM)))
+
+	subgraph Legenda
+        L1["Fase 1: Escolha e <br>definição do tema"]
+        L2["Fase 2: Estruturação <br>dos objetivos"]
+        L3["Fase 3: Desenvolvimento <br> e finalização"]
+    end
+
+%% Fluxo
+    A1 --> P1
+	P1 --> A2
+	A2 --> A3
+	A3 --> P2
+	P2 --> |Sim| A4 --> P3
+	P2 --> |Não| A3
+	P3 --> |Não| A4
+    P3 --> |Sim| A5
+    A4 --> A5
+    A5 --> PValidaCrono --> A6
+    A6 --> P4
+    A6 --> A7
+    P4 --> A8 
+    A8 --> A9 --> A10 --> A11
+    P4 --> PAvaliarEscrita
+	PAvaliarEscrita <--> A8
+    PAvaliarEscrita <--> A9
+    PAvaliarEscrita <--> A10
+    PAvaliarEscrita <--> A11
+	A11 --> A12
+	A12 --> P6
+    P6 --> |SIM| P5
+	P6 --> |Não| FIM
+	P5 --> ApresentarTCC
+	ApresentarTCC --> CorrigirTCCPosApresentacao
+	CorrigirTCCPosApresentacao --> PAvaliarPosBanca
+	PAvaliarPosBanca --> EntregaTCCIFS --> FIM
+
+%% Classes (Fases do trabalho)
+    class A1,A2,A3,P1,P2 fase1
+    class A4,A5,P3,PValidaCrono fase1
+    class A6,A7,A8,A9,A10,A11,P4,PC fase2
+    class P6,P5,A12,ApresentarTCC fase3
+	class CorrigirTCCPosApresentacao,PAvaliarEscrita,PAvaliarPosBanca,EntregaTCCIFS fluxo
+
+%% Legenda compacta (com cores das fases)
+   
+    class L1 fase1
+    class L2 fase2
+    class L3 fase3
+   
+    style Legenda fill:#f0f0f0,stroke:#cccccc,stroke-width:1px,font-size:9px
+    
+
+    %% Ajustes para compactar as caixas de texto dentro da legenda
+    style L1 font-size:9px
+    style L2 font-size:9px
+    style L3 font-size:9px

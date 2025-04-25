@@ -1,0 +1,5 @@
+{% if page.content contains 'class="mermaid"' %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="{{ "/assets/js/mermaid/mermaid-loader.js" | relative_url }}"></script>
+{% endif %}
+ 
