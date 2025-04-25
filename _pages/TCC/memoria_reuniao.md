@@ -13,7 +13,7 @@ Este guia irá orientá-lo passo a passo sobre como registrar uma reunião de or
 Caso queira, é possível visualizar um já preenchido clicando [aqui]({{ '/TCC/memoria_reuniao_ex01' | relative_url }}){: target="blank"}.
 {: .notice--info}
 
-Outro exemplo, utilizado pela profa. Clênia, pode ser visto [aqui](https://docs.google.com/document/d/12P96U8ZsCguEujJrhY7v-Sia63nQ6DlIbW67EowkCEg/edit?usp=sharing){: target="blank"}.
+Outro exemplo, utilizado pela profa. Clênia, pode ser visto [aqui](https://docs.google.com/document/d/1_qm3MK52A2VdKKQGb1DWSb2f8p2oloODNkfujA0zT18/edit?usp=drivesdk){: target="blank"}.
 {: .notice--info}
 
 
