@@ -21,7 +21,7 @@ body:
     required: true
 - type: dropdown
   id: tipo
-    attributes:
+  attributes:
     label: Você acredita que isso seja um?
     options:
       - Erro/Bug
