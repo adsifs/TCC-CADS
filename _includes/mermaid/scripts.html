@@ -1,0 +1,11 @@
+<script type="module">
+  document.addEventListener("DOMContentLoaded", async () => {
+    const mermaidBlocks = document.querySelectorAll(".mermaid");
+    if (mermaidBlocks.length > 0) {
+      const mermaid = await import(
+        "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"
+      );
+      mermaid.default.initialize({ startOnLoad: true });
+    }
+  });
+</script>

@@ -1,0 +1,30 @@
+{%- comment -%}
+  Uso: {% include mermaid/include_mermaid.html file="fluxo.mmd" %}
+  Isso buscará o arquivo: _includes/diagrams/fluxo.mmd
+{%- endcomment -%}
+
+{%- assign filename = include.file | default: "" -%}
+
+{%- if filename != "" -%}
+  {%- assign path = "diagrams/" | append: filename -%}
+  {%- capture mermaid_code_raw -%}
+    {%- include {{ path }} -%}
+  {%- endcapture -%}
+
+  {%- assign mermaid_code = mermaid_code_raw | strip -%}
+
+  {%- if mermaid_code != "" -%}
+    <div class="mermaid">
+{{ mermaid_code }}
+    </div>
+
+    {%- unless site.mermaid_loaded -%}
+      <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script><script>mermaid.init();</script>
+      {%- assign site.mermaid_loaded = true -%}
+    {%- endunless -%}
+  {%- else -%}
+    <p><strong>Erro:</strong> Arquivo '{{ filename }}' está vazio.</p>
+  {%- endif -%}
+{%- else -%}
+  <p><strong>Erro:</strong> Nome de arquivo inválido ['{{ include.file }}']. Use apenas arquivos .mmd sem barras.</p>
+{%- endif -%}
