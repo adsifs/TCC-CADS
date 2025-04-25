@@ -47,5 +47,5 @@ Saiba mais sobre [TCC I] e [TCC II]
 {: .notice--info}
 
 [LaTeX]: https://github.com/CBSIIFSLagarto/template_doc_cbsi_ifs
-[TCC I]: {{ '/tcc/tcc1' | relative_url }} 
-[TCC II]: {{ '/tcc/tcc2' | relative_url }}
+[TCC I]: {{ '/TCC/TCC1' | relative_url }} 
+[TCC II]: {{ '/TCC/TCC2' | relative_url }}

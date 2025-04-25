@@ -36,7 +36,7 @@ TCC:
   - title: "TCC 1"
     children:
       - title: "O que é"
-        url: "/TCC/TCC1"
+        url: "/TCC/TCC1/"
       - title: "Fluxo de trabalho"
         url: "/TCC/TCC1/fluxo_tcc1/"
   - title: "TCC 2"

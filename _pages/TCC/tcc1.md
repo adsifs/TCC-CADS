@@ -2,7 +2,7 @@
 layout: tcc
 toc: true 
 title: "TCC 1"
-permalink: /TCC/tcc1/
+permalink: /TCC/TCC1/
 has_children: true
 nav_order: 1
 

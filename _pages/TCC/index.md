@@ -19,7 +19,7 @@ Por fim, este roteiro não visa substituir as normas atualizadas do Instituto/Cu
 [Norma]: https://www.ifs.edu.br/images/proen/IN_062024_Regulamenta_a_elaboracao_de_Trabalho_de_Conclusao_de_Cursos___TCC_no_ambito_do_IFS.pdf
 [PPC]: http://www.ifs.edu.br/images/arquivos/Proen/PPCs_-_Superiores/Aracaju/CS_41_-_Aprova_o_PPC_de_Tecnologia_em_Anlise_e_Desenvolvimento_de_Sistemas_e_au.pdf
 [TCC]: {{ '/TCC/' | relative_url }}
-[TCC I]: {{ '/TCC/tcc1' | relative_url }}
-[TCC II]: {{ '/TCC/tcc2' | relative_url }}
+[TCC I]: {{ '/TCC/TCC1' | relative_url }}
+[TCC II]: {{ '/TCC/TCC2' | relative_url }}
 [LaTeX]: https://github.com/CBSIIFSLagarto/template_doc_cbsi_ifs
 [normas atualizadas]: http://www.ifs.edu.br/documentos-internos-proen/353-hotsite-proen/9074-documentos-internos-vigentes-proen.

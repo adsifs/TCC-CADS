@@ -8,6 +8,8 @@ parent: "TCC 2"
 nav_order: 2
 author_profile: true
 
+# {% include mermaid/mermaid.html file="fluxo_tcc2.mmd" %} 
+
 ---
 
-{% include mermaid/mermaid.html file="fluxo_tcc1.mmd" %} 
+Fluxo em construção.
