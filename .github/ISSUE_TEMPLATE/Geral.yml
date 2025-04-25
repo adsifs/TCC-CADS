@@ -7,7 +7,6 @@ body:
         Descreva aqui a sua sugestão. Além do formato texto, use imagens e links para auxiliar na descrição.
 
         Agradecemos a sua contribuição!
-
   - type: textarea
     id: descricao
     attributes:
@@ -17,13 +16,14 @@ body:
         Adicione:
         - Imagem
         - Vídeo
-        - links...
+        - links
+        ...
     validations:
       required: true
   - type: dropdown
-    id: Tipo
+    id: tipo
     attributes:
-    label: Você acredita que isso seja um....
+    label: Você acredita que isso seja um?
     options:
       - Erro/Bug
       - Link quebrado
