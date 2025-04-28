@@ -115,7 +115,7 @@ O conteúdo disponibilizado aqui inclui:
 - Sugestões de ferramentas para escrita e documentação;
 - Documentos de apoio e links úteis;
  
-Saiba que este é um espaço colaborativo, que pode ser continuamente aprimorado com contribuições da comunidade acadêmica. Sinta-se à vontade para sugerir melhorias e colaborar com o projeto.
+Este é um espaço colaborativo, que pode ser continuamente aprimorado com contribuições da comunidade acadêmica. Sinta-se à vontade para sugerir melhorias e colaborar com o projeto, [saiba mais clicando aqui](https://github.com/adsifs/TCC-CADS).
 {: .notice--success}
 
 {% include feature_row  %}
