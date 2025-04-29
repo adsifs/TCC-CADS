@@ -4,17 +4,13 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-{% assign type_input = include.type | default: "left" | strip %}
+{% assign type_input = include.type | default: nil | strip %}
 {% assign type_sequence = type_input | split: "-" %}
 {% assign alternate_types = type_sequence.size > 1 %}
 {% assign use_random = false %}
 {% if type_input == "random" %}
   {% assign use_random = true %}
 {% endif %}
-
-
-
-
 
 <div class="feature__wrapper">
 
@@ -23,9 +19,15 @@
       {% assign options = "left,right,center" | split: "," %}
       {% assign current_type = options | sample %}
     {% elsif alternate_types %}
-      {% assign type_index = forloop.index0 | modulo: type_sequence.size %}
-      {% assign current_type = type_sequence[type_index] %}
-	{% else %}
+      {% if type_sequence.size > 0 %}
+        {% assign type_index = forloop.index0 | modulo: type_sequence.size %}
+        {% assign current_type = type_sequence[type_index] %}
+      {% else %}
+        {% assign current_type = nil %}
+      {% endif %}
+    {% elsif type_input == nil %}
+      {% assign current_type = nil %}
+    {% else %}
       {% assign current_type = type_input %}
     {% endif %}
 
