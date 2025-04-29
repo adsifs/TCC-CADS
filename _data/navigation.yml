@@ -2,7 +2,7 @@ main:
   - title: "TCC"
     url: "/TCC/"
   - title: "Livros"
-    url: /Livros/
+    url: /livros/
   # - title: "Professores"
   #   url: /professores/
   - title: "Downloads"
