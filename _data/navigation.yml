@@ -1,18 +1,22 @@
 main:
   - title: "TCC"
     url: "/TCC/"
+  - title: "Livros"
+    url: /Livros/
+  # - title: "Professores"
+  #   url: /professores/
   - title: "Downloads"
     url: "/downloads/"
   # - title: "Quick-Start Guide"
   #   url: "/docs/quick-start-guide/"
-  - title: "About"
-    url: "/about/"
+  # - title: "About"
+  #   url: "/about/"
   # - title: "Sample Posts"
   #   url: "/year-archive/"
   # - title: "Sample Collections"
   #   url: "/collection-archive/"
-  - title: "Terms & Privacy Policy"
-    url: "/terms/"
+  # - title: "Terms & Privacy Policy"
+  #   url: "/terms/"
 
 TCC:
   - title: "TCC"
