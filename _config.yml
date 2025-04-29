@@ -93,10 +93,10 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id: "G-R8Q1FTSLT6" # Replace this with your ID, or delete
-    anonymize_ip: true
+#    anonymize_ip: true
 
 # Site Author
 author:
@@ -190,6 +190,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  # professores:
+  #   output: true
+  #   permalink: /:collection/:path/
+
 
 default_tcc:
   sidebar:
@@ -242,6 +246,15 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # # _professores
+  # - scope:
+  #     path: ""
+  #     type: professores
+  #   values:
+  #     layout: auto
+  #     author_profile: false
+  #     share: false
+  #     comments: false
 
 # Sass/SCSS
 sass:
