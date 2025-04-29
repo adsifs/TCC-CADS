@@ -4,10 +4,25 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
+{% assign type_input = include.type | default: "left" %}
+{% assign type_sequence = type_input | split: "-" %}
+{% assign alternate_types = type_sequence.size > 1 %}
+{% assign use_random = type_input == "random" %}
+
 <div class="feature__wrapper">
 
   {% for f in feature_row %}
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    {% if use_random %}
+      {% assign options = "left,right,center" | split: "," %}
+      {% assign current_type = options | sample %}
+    {% elsif alternate_types %}
+      {% assign type_index = forloop.index0 | modulo: type_sequence.size %}
+      {% assign current_type = type_sequence[type_index] %}
+    {% else %}
+      {% assign current_type = type_input %}
+    {% endif %}
+
+    <div class="feature__item{% if current_type %}--{{ current_type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
