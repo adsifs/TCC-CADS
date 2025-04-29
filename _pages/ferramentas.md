@@ -1,6 +1,6 @@
 ---
 layout: auto
-toc: false
+toc: true
 title: Roteiros, Modelos e Ferramentas
 permalink: /downloads/
 
@@ -47,6 +47,7 @@ Diversas ferramentas são utilizadas durante a construção de um TCC. Recomenda
 
 {% include feature_row  %}
 
+## Roteiros
 
 Saiba mais sobre [TCC I] e [TCC II]
 {: .notice--info}
