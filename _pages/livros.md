@@ -16,7 +16,7 @@ feature_row3:
 
     *Autor*: Carlos Eduardo Silva 
   url: https://www.cbpciencia.com.br/
-  btn_label: "Ver/Download"
+  btn_label: "Ver / Download"
   btn_class: "btn--primary"
 - image_path: "/assets/images/livros/book_cover_339.webp"
   alt: Manual prático para elaboração de trabalhos de conclusão de curso de Douglas Fernandes da Silva, Augusto Alberto Foggiato, João Lopes Toledo Neto, Sibelli Olivieri Parreiras.
@@ -30,8 +30,20 @@ feature_row3:
   
   url: https://www.blucher.com.br/manual-pratico-para-elaboracao-de-trabalhos-de-conclusao-de-curso_9786555500028
   image_caption: "Imagens obtidas em [Blucher](https://www.blucher.com.br/)"
-  btn_label: "Ver/Download"
+  btn_label: "Ver / Download"
   btn_class: "btn--primary"
+
+- image_path: "https://m.media-amazon.com/images/I/81WUyDDc-lL._SL1500_.jpg" # "/assets/images/livros/book_cover.jpg"
+  image_caption: "Foto de [Mediamodifier](https://unsplash.com/pt-br/@mediamodifier?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) na [Unsplash](https://unsplash.com/pt-br/fotografias/caixa-branca-na-mesa-branca-kML003ksO_0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
+  alt: "Elaboração de TCC e Publicação de Artigos: for starters"
+  title: "Elaboração de TCC e Publicação de Artigos: for starters"
+  excerpt: |
+    Seu GPS na busca de um trabalho científico perfeito. Com bom humor e casos ilustrativos, Metodologia de Pesquisa para Ciência da Computação apresenta teoria e técnicas que auxiliam trabalhos científicos em graduação, especialização, mestrado ou doutorado. Com texto detalhado, para que o estudante entenda claramente o porquê das normas e as melhores práticas descritas, Raul Sidnei Wazlawick mostra o que fazer para ter sucesso no TCC, nas dissertações e em teses e aponta os erros mais comuns a serem evitados. Se você não sabe se sua ideia é adequada para uma dissertação ou para publicar um artigo, se já buscou ajuda em livros de metodologia científica, mas só encontrou normas técnicas para formatar texto, se começou a escrever e não sabe como continuar ou está em dúvida sobre o que são objetivos específicos e o que escrever nas conclusões, este livro pode ajudar você!? [Por Amazon](https://www.amazon.com.br/Metodologia-Pesquisa-para-Ci%C3%AAncia-Computa%C3%A7%C3%A3o/dp/8595151091).
+
+    *Autor*:  Raul Sidnei WAZLAWICK 
+  url: https://www.amazon.com.br/Metodologia-Pesquisa-para-Ci%C3%AAncia-Computa%C3%A7%C3%A3o/dp/8595151091
+  btn_label: "Ver / Comprar"
+  btn_class: "btn--primary"  
 
 ---
 
