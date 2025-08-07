@@ -7,6 +7,8 @@ main:
   #   url: /professores/
   - title: "Downloads"
     url: "/downloads/"
+  - title: "Aulas online"
+    url: "https://www.youtube.com/watch?v=2Ag0V4mymdc&list=PLpaHaJU6PqAyvQzObC7-vp6yHp7C0VBV6"
   # - title: "Quick-Start Guide"
   #   url: "/docs/quick-start-guide/"
   # - title: "About"
@@ -50,6 +52,10 @@ TCC:
         url: "/TCC/TCC2/"
       - title: "Fluxo de trabalho"
         url: "/TCC/TCC2/fluxo_tcc2/"
+  - title: "Aulas online"
+    children:
+      - title: "Metodologia científica"
+        url: "https://www.youtube.com/watch?v=2Ag0V4mymdc&list=PLpaHaJU6PqAyvQzObC7-vp6yHp7C0VBV6"
 
 # documentation links
 docs:
