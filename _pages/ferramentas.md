@@ -35,6 +35,8 @@ feature_row:
 
 ## Modelos
 - [LaTeX]{: target="_blank"}
+  - [TCC Modelo CADS/Aracaju](https://github.com/CBSIIFSLagarto/template_doc_cbsi_ifs/tree/master/CADS/TCC){: target="_blank"}
+  - [TCC Modelo BSI/Lagarto](https://github.com/CBSIIFSLagarto/template_doc_cbsi_ifs/tree/master/ConclusaoCurso){: target="_blank"} (obsoleto)
 - ~~Word (não recomendado)~~
 - [Memória de reunião]({{'/tcc/memoria_reuniao/' | relative_url }})
 
